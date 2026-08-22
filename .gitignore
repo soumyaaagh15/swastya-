@@ -23,3 +23,7 @@ dist-isolation
 *.njsproj
 *.sln
 *.sw?
+
+# Uploaded user files
+uploads/*
+!uploads/.gitkeep

@@ -190,6 +190,29 @@ export const InsurancePage: React.FC = () => {
                   required
                 />
               </div>
+
+              <div>
+                <label className="font-bold text-slate-700 block mb-1">Upload Supporting Hospital Bill / Prescription</label>
+                <label className="border-2 border-dashed border-slate-300 hover:border-emerald-600 rounded-xl p-3 text-center bg-slate-50 block cursor-pointer">
+                  <span className="text-xs font-bold text-emerald-800">Choose Picture / PDF Receipt</span>
+                  <input 
+                    type="file" 
+                    onChange={async (e) => {
+                      const file = e.target.files?.[0];
+                      if (file) {
+                        try {
+                          const res = await (await import('../../services/apiService')).ApiService.uploadFile(file);
+                          alert(`Uploaded "${file.name}" to claim attachments.`);
+                        } catch (err) {
+                          console.error(err);
+                        }
+                      }
+                    }} 
+                    className="hidden" 
+                    accept="image/*,.pdf" 
+                  />
+                </label>
+              </div>
             </div>
 
             <div className="flex items-center justify-end gap-2 pt-3 border-t border-slate-100">

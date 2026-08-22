@@ -1,0 +1,87 @@
+[
+  {
+    "id": "rec_1787387448938",
+    "title": "Dr. Sen Prescription for Judges Demo",
+    "category": "Prescriptions",
+    "doctorName": "Dr. Ananya Sen (MD, DM)",
+    "hospitalName": "SCB Medical College",
+    "dateUploaded": "2026-08-22",
+    "fileUrl": "/uploads/judge_presentation_sample_1787387448711_7814.png",
+    "fileType": "image",
+    "fileSizeMb": 0.1,
+    "tags": [
+      "Live Demo",
+      "Judge Presentation",
+      "Cardiology"
+    ],
+    "notes": "Real picture uploaded during live judging session"
+  },
+  {
+    "id": "rec_101",
+    "title": "Dr. Ananya Sen - Cardiology Prescription",
+    "category": "Prescriptions",
+    "doctorName": "Dr. Ananya Sen (MD, DM)",
+    "hospitalName": "Apollo Hospital & Heart Institute",
+    "dateUploaded": "2026-08-18",
+    "fileUrl": "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?w=800&auto=format&fit=crop&q=60",
+    "fileType": "image",
+    "fileSizeMb": 1.4,
+    "tags": [
+      "Cardiology",
+      "Hypertension",
+      "Daily Dosage"
+    ],
+    "notes": "Prescribed Telmisartan 40mg and Amlodipine 5mg for 30 days."
+  },
+  {
+    "id": "rec_102",
+    "title": "HbA1c & Fasting Lipid Profile Blood Report",
+    "category": "Lab Reports",
+    "doctorName": "Dr. R.K. Mishra (Pathologist)",
+    "hospitalName": "Thyrocare / Max Lab Diagnostics",
+    "dateUploaded": "2026-08-15",
+    "fileUrl": "https://images.unsplash.com/photo-1579154204601-01588f351e67?w=800&auto=format&fit=crop&q=60",
+    "fileType": "pdf",
+    "fileSizeMb": 2.8,
+    "tags": [
+      "Blood Test",
+      "Diabetes",
+      "HbA1c 6.8%"
+    ],
+    "notes": "Blood sugar controlled. HbA1c improved to 6.8%."
+  },
+  {
+    "id": "rec_103",
+    "title": "Chest X-Ray & ECG Report",
+    "category": "Scans",
+    "doctorName": "Dr. S. Patnaik",
+    "hospitalName": "Sun Hospital Imaging Centre",
+    "dateUploaded": "2026-08-02",
+    "fileUrl": "https://images.unsplash.com/photo-1516549655169-df83a0774514?w=800&auto=format&fit=crop&q=60",
+    "fileType": "image",
+    "fileSizeMb": 3.1,
+    "tags": [
+      "X-Ray",
+      "ECG",
+      "Normal Sinus Rhythm"
+    ],
+    "notes": "Normal lung fields, clear costophrenic angles."
+  },
+  {
+    "id": "rec_104",
+    "title": "Ayushman Bharat Cashless Admission Discharge Summary",
+    "category": "Discharge",
+    "doctorName": "Dr. Ananya Sen",
+    "hospitalName": "SCB Medical College & Hospital",
+    "dateUploaded": "2026-07-10",
+    "fileUrl": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&auto=format&fit=crop&q=60",
+    "fileType": "pdf",
+    "fileSizeMb": 4.2,
+    "tags": [
+      "Discharge",
+      "Cashless",
+      "In-Patient"
+    ],
+    "notes": "Observation for mild chest discomfort. Discharged in stable condition."
+  }
+]
